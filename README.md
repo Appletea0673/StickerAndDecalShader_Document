@@ -1,7 +1,19 @@
 # StickerAndDecalShader
 ![](Images/StickerAndDecalShader_thumbnail.png)  
 簡単に、"歪まない"シールが貼れるShaderです！  
-## 目次
+  
+⚠️重要⚠️  
+- [Fast Realtime Light Shader](https://appleteaworkshop.booth.pm/items/7505589)
+- [Projector Shader](https://appleteaworkshop.booth.pm/items/7608953)  
+も本Shaderと本質的には同じものであるため、本ドキュメントを参照してください。  
+  
+- 特徴
+	- 簡単に貼り付けられる！  
+	- GIF画像の貼り付けられる！  
+ 	- UVに影響されない！
+	→ 服の伸び縮みに影響されにくい！
+
+## 目次  
 - [使い方](#使い方)
     - [Avatar用途](#Avatar用途)
     - [World用途](#World用途)
