@@ -67,6 +67,7 @@ World制作者向け機能として、
 |![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_3.png)|  
 
 - Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えてね！  
 💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
 - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
 💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！  
@@ -98,6 +99,7 @@ World制作者向け機能として、
 	- **Convert to 2DTextureArray**ボタンを押して変換！  
 	💡変換したファイルは自動的に保存されるので、後のShader設定で入れよう！  
 - Gif Sample_Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えてね！  
 💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
 - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
 💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！
@@ -114,6 +116,7 @@ World制作者向け機能として、
 > Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab
 
 フォルダ内のPrefabをSceneに配置してご利用ください。
+⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えて調整してください。  
 各Prefabの詳細を以下に示します。
 
 - Depth Decal.prefab  
