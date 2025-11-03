@@ -18,7 +18,7 @@
 
 | Prefab設置 | 位置と回転の調整 | Scaleの調整 |
 |---|---|---|
-|![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_1.png)|  
+|![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_3.png)|  
 
     - Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
     💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
