@@ -3,10 +3,8 @@
 簡単に、"歪まない"シールが貼れるShaderです！  
 ## 目次
 - [使い方](#使い方)
-	- [設置方法](#設置方法)
 	- [使用上の注意 ⚠️重要⚠️](#使用上の注意)
 	- [Shaderの設定項目の説明](#Shaderの設定項目の説明)
-- [仕様](#仕様)
 ## 使い方
 ### Avatar用途
 ⚠️本Shaderは[Modular Avatar](https://modular-avatar.nadena.dev/ja)を使うと体にくっつけたりするのが比較的簡単にできます！
@@ -17,16 +15,35 @@
     - **Depth Observer** PrefabをAvatar直下に入れる！  
     💡Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab に入っています！  
 - くっつける！  
-![](Images/StickerAndDecalShader_install_1.png)  
+| Prefab設置 | 位置と回転の調整 | Scaleの調整 |
+|---|---|---|
+|![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_1.png)|  
+
     - Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
     💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
     - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
-    💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！
+    💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！  
+
+| Material複製 | 画像を交換、Shader設定 | 見た目の確認 |
+|---|---|---|
+|![](Images/StickerAndDecalShader_install_4.png)|![](Images/StickerAndDecalShader_install_5.png)|![](Images/StickerAndDecalShader_install_6.png)|  
+
     - Materialを複製する！  
     💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
-    - [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きな画像を貼り付ける！
-- GIF画像を貼り付ける！
-![](Images/StickerAndDecalShader_install_2.png)  
+    - [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きな画像を貼り付ける！  
+
+| MA Bone ProxyをAdd Componentで追加 | ターゲットに追従させるボーンを設定 |
+|---|---|
+|![](Images/StickerAndDecalShader_install_7.png)|![](Images/StickerAndDecalShader_install_8.png)|
+
+    - Stickerのオブジェクトに**MA Bone Proxy**を追加する
+    - **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
+- GIF画像を貼り付ける！  
+
+| Editorを開く | GIF画像を変換する | Shaderに登録する |
+|---|---|---|
+|![](Images/StickerAndDecalShader_install_9.png)|![](Images/StickerAndDecalShader_install_10.png)|![](Images/StickerAndDecalShader_install_11.png)|   
+
     - GIF画像の変換
         - Unity画面上のタブにある**Appletea's Tools**から、**Gif to Texture2DArray**を選択してウィンドウを開く
         - 変換したいGIF画像を**Select GIF File**に入れる
@@ -40,6 +57,8 @@
     💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
     - [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きなGIF画像を貼り付ける！  
     💡通常の画像とは設定場所が違うので注意！  
+    - Stickerのオブジェクトに**MA Bone Proxy**を追加する
+    - **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
 
 [使用上の注意](#使用上の注意)にも記載がありますが、**Depth Observer** PrefabをAvatar直下に入れてください。
 ### World用途
@@ -148,7 +167,3 @@ Stencilに関する設定です。使える人は使ってください。
 描画順設定です。特に変える必要はないです。
 - Enable GPU Instancing  
 GPU Instancingに対応しています。複数の全く同じMeshで同じMaterialのStickerを使う場合にご利用ください。
-
-| RayOffset:0 | RayOffset:20 |
-|---|---|
-|![](Images/RayOffset_1.png)|![](Images/RayOffset_2.png)|
