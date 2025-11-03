@@ -58,7 +58,7 @@ World制作者向け機能として、
     - 商品購入後に同封されているunitypackageを使用するUnityのプロジェクトに入れる！
 - 必要なものを入れる
     - [Modular Avatar](https://modular-avatar.nadena.dev/ja)をプロジェクトに入れる！
-    - **Depth Observer** PrefabをAvatar直下に入れる！  
+    - **Depth Caller** PrefabをAvatar直下に入れる！  
     💡Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab に入っています！  
 - くっつける！
 
@@ -66,7 +66,7 @@ World制作者向け機能として、
 |---|---|---|
 |![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_3.png)|  
 
-- Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+- Sticker and Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
 ⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えてね！  
 💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
 - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
@@ -98,7 +98,7 @@ World制作者向け機能として、
 	- 変換したいGIF画像を**Select GIF File**に入れる
 	- **Convert to 2DTextureArray**ボタンを押して変換！  
 	💡変換したファイルは自動的に保存されるので、後のShader設定で入れよう！  
-- Gif Sample_Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+- Gif Sample_Sticker and Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
 ⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えてね！  
 💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
 - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
@@ -110,7 +110,7 @@ World制作者向け機能として、
 - Stickerのオブジェクトに**MA Bone Proxy**を追加する
 - **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
 
-[使用上の注意](#使用上の注意)にも記載がありますが、**Depth Observer** PrefabをAvatar直下に入れてください。
+[使用上の注意](#使用上の注意)にも記載がありますが、**Depth Caller** PrefabをAvatar直下に入れてください。
 ### World用途
 商品購入後に同封されているunitypackageを使用するUnityのプロジェクトに取り込み、  
 > Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab
@@ -119,19 +119,19 @@ World制作者向け機能として、
 ⚠️このとき、Viewが平行投影の場合は見えないので、透視投影に切り替えて調整してください。  
 各Prefabの詳細を以下に示します。
 
-- Depth Decal.prefab  
+- Sticker and Decal.prefab  
 画像を貼り付ける場合にご利用ください。
 
-- Gif Sample_Depth Decal.prefab  
+- Gif Sample_Sticker and Decal.prefab  
 GIF画像を貼り付ける場合にご利用ください。
 
-- ParticleSystem_Depth Decal.prefab  
+- ParticleSystem_Sticker and Decal.prefab  
 StickerをParticleでばらまく用途にご利用ください。
 
-- Pseudo Light Inverse_Depth Decal.prefab  
+- Fast Realtime Dark Light_Sticker and Decal.prefab  
 負の光を表現するスポットライトサンプルです。設定やマスクをいじってご利用ください。
 
-- Pseudo Light_Depth Decal.prefab  
+- Fast Realtime [Type] Light_Sticker and Decal.prefab  
 スポットライトを表現するサンプルです。設定やマスクをいじってご利用ください。
 
 ### 使用上の注意
@@ -139,7 +139,7 @@ StickerをParticleでばらまく用途にご利用ください。
 
 1. SceneのDepth Texture発行に関して  
     - Avatarで使う場合  
-    本商品に含まれる、**Depth Observer** PrefabをAvatar直下に入れてください。  
+    本商品に含まれる、**Depth Caller** PrefabをAvatar直下に入れてください。  
     💡Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab に入っています！  
     ⚠️LightをAvatarに入れることになるので、アバターランクがPoorになる点にご注意ください。
     - Worldで使う場合  
