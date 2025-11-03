@@ -14,7 +14,8 @@
     - [Modular Avatar](https://modular-avatar.nadena.dev/ja)をプロジェクトに入れる！
     - **Depth Observer** PrefabをAvatar直下に入れる！  
     💡Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab に入っています！  
-- くっつける！  
+- くっつける！
+
 | Prefab設置 | 位置と回転の調整 | Scaleの調整 |
 |---|---|---|
 |![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_1.png)|  
@@ -62,8 +63,7 @@
 
 [使用上の注意](#使用上の注意)にも記載がありますが、**Depth Observer** PrefabをAvatar直下に入れてください。
 ### World用途
-![](Images/Sample_Prefab.png)  
-商品購入後に同封されているunitypackageを使用するUnityのプロジェクトに取り込み、
+商品購入後に同封されているunitypackageを使用するUnityのプロジェクトに取り込み、  
 > Appletea's Item/Sticker & Decal Shader/[バージョン]/Prefab
 
 フォルダ内のPrefabをSceneに配置してご利用ください。
@@ -104,8 +104,7 @@ StickerをParticleでばらまく用途にご利用ください。
 ### Shaderの設定項目の説明
 **注意！アップデートで項目が変更される場合があります！**
 
-|![](Images/ShaderProperty_1.png)|![](Images/ShaderProperty_2.png)|
-|---|---|
+![](Images/ShaderProperty_1.png)|![](Images/ShaderProperty_2.png)
 
 デフォルト設定から変更する必要があまりない項目については解説を省いています。  
 また、角度設定はすべてradianです。
