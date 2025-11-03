@@ -22,46 +22,47 @@
 |---|---|---|
 |![](Images/StickerAndDecalShader_install_1.png)|![](Images/StickerAndDecalShader_install_2.png)|![](Images/StickerAndDecalShader_install_3.png)|  
 
-    - Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
-    💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
-    - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
-    💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！  
+- Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
+- Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
+💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！  
 
 | Material複製 | 画像を交換、Shader設定 | 見た目の確認 |
 |---|---|---|
 |![](Images/StickerAndDecalShader_install_4.png)|![](Images/StickerAndDecalShader_install_5.png)|![](Images/StickerAndDecalShader_install_6.png)|  
 
-    - Materialを複製する！  
-    💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
-    - [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きな画像を貼り付ける！  
+- Materialを複製する！  
+💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
+- [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きな画像を貼り付ける！  
 
 | MA Bone ProxyをAdd Componentで追加 | ターゲットに追従させるボーンを設定 |
 |---|---|
 |![](Images/StickerAndDecalShader_install_7.png)|![](Images/StickerAndDecalShader_install_8.png)|
 
-    - Stickerのオブジェクトに**MA Bone Proxy**を追加する
-    - **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
+- Stickerのオブジェクトに**MA Bone Proxy**を追加する
+- **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
+
 - GIF画像を貼り付ける！  
 
 | Editorを開く | GIF画像を変換する | Shaderに登録する |
 |---|---|---|
 |![](Images/StickerAndDecalShader_install_9.png)|![](Images/StickerAndDecalShader_install_10.png)|![](Images/StickerAndDecalShader_install_11.png)|   
 
-    - GIF画像の変換
-        - Unity画面上のタブにある**Appletea's Tools**から、**Gif to Texture2DArray**を選択してウィンドウを開く
-        - 変換したいGIF画像を**Select GIF File**に入れる
-        - **Convert to 2DTextureArray**ボタンを押して変換！  
-        💡変換したファイルは自動的に保存されるので、後のShader設定で入れよう！  
-    - Gif Sample_Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
-    💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
-    - Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
-    💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！
-    - Materialを複製する！  
-    💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
-    - [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きなGIF画像を貼り付ける！  
-    💡通常の画像とは設定場所が違うので注意！  
-    - Stickerのオブジェクトに**MA Bone Proxy**を追加する
-    - **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
+- GIF画像の変換
+	- Unity画面上のタブにある**Appletea's Tools**から、**Gif to Texture2DArray**を選択してウィンドウを開く
+	- 変換したいGIF画像を**Select GIF File**に入れる
+	- **Convert to 2DTextureArray**ボタンを押して変換！  
+	💡変換したファイルは自動的に保存されるので、後のShader設定で入れよう！  
+- Gif Sample_Depth Decal PrefabをScene上に置き、**貼り付けたい面に密着させて**、z軸を貼り付けたいものに向けます  
+💡Stickerが有効な範囲はCubeの内側！向きと位置を合わせてね！  
+- Scaleからサイズを調整、z軸の大きさは少し大きめに取ります  
+💡Avatarでは体を曲げたりするときにStickerの有効な範囲から外れちゃうことがあるのでz軸の大きさは少し大きめに取ってね！
+- Materialを複製する！  
+💡2種類以上のStickerを使いたいときは複製してね！複製はMaterialを選択してCtrl + Dでできるよ！  
+- [Shaderの設定項目](#Shaderの設定項目の説明)を参考に好きなGIF画像を貼り付ける！  
+💡通常の画像とは設定場所が違うので注意！  
+- Stickerのオブジェクトに**MA Bone Proxy**を追加する
+- **MA Bone Proxy**のターゲットに追従させたいボーンを設定する
 
 [使用上の注意](#使用上の注意)にも記載がありますが、**Depth Observer** PrefabをAvatar直下に入れてください。
 ### World用途
